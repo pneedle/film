@@ -1,0 +1,16 @@
+name: f_theme
+description: my custom theme
+type: theme
+core: 8.x
+screenshot: f_theme.png
+base theme: classy
+libraries:
+  - f_theme/global-css
+  - f_theme/global-js
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
